@@ -18,13 +18,13 @@
 {
     [super viewDidLoad];
     
-    _menuItems = [[NSMutableArray alloc] initWithCapacity:3];
+    _menuItems = [[NSMutableArray alloc] initWithCapacity:1];
     
     // add the help desk options
-    [_menuItems addObject:@"helpdesk"];
+//    [_menuItems addObject:@"helpdesk"];
     
     // add the article view options
-    [_menuItems addObject:@"articleview"];
+//    [_menuItems addObject:@"articleview"];
     
     // add the live chat options
     [_menuItems addObject:@"livechat"];
@@ -81,11 +81,12 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSString * opt = (NSString *)[self.menuItems objectAtIndex:[indexPath row]];
-    if([@"helpdesk" isEqualToString:opt]){
-        [self performSegueWithIdentifier:@"helpdeskoptions" sender:self];
-    }else if([@"articleview" isEqualToString:opt]){
-        [self performSegueWithIdentifier:@"articleviewoptions" sender:self];
-    }else if([@"livechat" isEqualToString:opt]){
+//    if([@"helpdesk" isEqualToString:opt]){
+//        [self performSegueWithIdentifier:@"helpdeskoptions" sender:self];
+//    }else if([@"articleview" isEqualToString:opt]){
+//        [self performSegueWithIdentifier:@"articleviewoptions" sender:self];
+//    }
+    if([@"livechat" isEqualToString:opt]){
         [self performSegueWithIdentifier:@"livechatoptions" sender:self];
     }
 }

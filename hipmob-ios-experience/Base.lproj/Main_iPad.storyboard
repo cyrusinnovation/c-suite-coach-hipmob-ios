@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" variant="6xAndEarlier" propertyAccessControl="none" useAutolayout="YES" initialViewController="d9G-gI-BUy">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch.iPad" variant="6xAndEarlier" propertyAccessControl="none" useAutolayout="YES" initialViewController="d9G-gI-BUy">
     <dependencies>
-        <deployment defaultVersion="1552" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,7 +17,6 @@
                         <rect key="frame" x="0.0" y="64" width="703" height="704"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <toolbarItems/>
@@ -27,7 +26,7 @@
             </objects>
             <point key="canvasLocation" x="3105" y="-868"/>
         </scene>
-        <!--Mi Pad Demo Root View Controller - The Hipmob Experience-->
+        <!--The Hipmob Experience-->
         <scene sceneID="VE0-gY-gup">
             <objects>
                 <tableViewController clearsSelectionOnViewWillAppear="NO" id="7v2-bz-6bF" customClass="HMiPadDemoRootViewController" sceneMemberID="viewController">
@@ -35,7 +34,6 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="704"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="helpdesk" textLabel="bs3-03-vLt" style="IBUITableViewCellStyleDefault" id="RgL-Bt-GKe">
                                 <rect key="frame" x="0.0" y="34" width="320" height="45"/>
@@ -155,7 +153,7 @@
             </objects>
             <point key="canvasLocation" x="2196" y="-868"/>
         </scene>
-        <!--Mi Pad Demo Article View Options View Controller - Article View Options-->
+        <!--Article View Options-->
         <scene sceneID="vy6-tS-w6Z">
             <objects>
                 <tableViewController title="Article View Options" id="PsZ-2a-JzH" customClass="HMiPadDemoArticleViewOptionsViewController" sceneMemberID="viewController">
@@ -163,7 +161,6 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="704"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="articleonly" textLabel="ZGq-D8-0iL" detailTextLabel="Ipf-lp-MBC" style="IBUITableViewCellStyleSubtitle" id="z4J-j1-srn">
                                 <rect key="frame" x="0.0" y="34" width="320" height="45"/>
@@ -286,7 +283,7 @@
             </objects>
             <point key="canvasLocation" x="3258" y="-1808"/>
         </scene>
-        <!--Mi Pad Demo Help Desk Options View Controller - Helpdesk Options-->
+        <!--Helpdesk Options-->
         <scene sceneID="OmE-P1-bpB">
             <objects>
                 <tableViewController title="Helpdesk Options" id="16m-VU-LvY" customClass="HMiPadDemoHelpDeskOptionsViewController" sceneMemberID="viewController">
@@ -294,7 +291,6 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="704"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="searchonly" textLabel="NrT-ap-kbp" style="IBUITableViewCellStyleDefault" id="TrK-du-xEe">
                                 <rect key="frame" x="0.0" y="34" width="320" height="45"/>
@@ -446,7 +442,7 @@
             </objects>
             <point key="canvasLocation" x="3258" y="-2753"/>
         </scene>
-        <!--Mi Pad Demo Live Chat Options View Controller - Live Chat Options-->
+        <!--Live Chat Options-->
         <scene sceneID="vuO-WS-L8h">
             <objects>
                 <tableViewController title="Live Chat Options" id="xug-oI-Ivz" customClass="HMiPadDemoLiveChatOptionsViewController" sceneMemberID="viewController">
@@ -454,7 +450,6 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="704"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="defaultchat" textLabel="fk0-C3-rXa" style="IBUITableViewCellStyleDefault" id="s4s-BF-PQF">
                                 <rect key="frame" x="0.0" y="34" width="320" height="45"/>
@@ -539,7 +534,7 @@
             </objects>
             <point key="canvasLocation" x="3258" y="83"/>
         </scene>
-        <!--Mi Pad Demo Search Only View Controller - Search Only-->
+        <!--Search Only-->
         <scene sceneID="BfT-TS-A9s">
             <objects>
                 <viewController id="RN2-Hl-aWs" customClass="HMiPadDemoSearchOnlyViewController" sceneMemberID="viewController">
@@ -553,7 +548,6 @@
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Abk-Ds-41T">
                                 <rect key="frame" x="20" y="20" width="663" height="63"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="63" id="91K-T5-Ras"/>
@@ -564,7 +558,6 @@
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Source:  HMiPhoneDemoSearchOnlyViewController.m" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="znc-Vs-kTG">
                                 <rect key="frame" x="20" y="91" width="663" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="esu-vf-b9O"/>
@@ -572,9 +565,8 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="85y-Ug-84P">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="85y-Ug-84P">
                                 <rect key="frame" x="211" y="143" width="280" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="280" id="gN7-rr-Po0"/>
                                 </constraints>
@@ -598,7 +590,6 @@
                             <constraint firstItem="znc-Vs-kTG" firstAttribute="top" secondItem="Abk-Ds-41T" secondAttribute="bottom" constant="8" symbolic="YES" id="m7e-Yf-qvR"/>
                             <constraint firstItem="85y-Ug-84P" firstAttribute="centerX" secondItem="znc-Vs-kTG" secondAttribute="centerX" id="pdR-6q-8DM"/>
                         </constraints>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <toolbarItems/>
@@ -619,7 +610,7 @@
             </objects>
             <point key="canvasLocation" x="3741" y="-3485"/>
         </scene>
-        <!--Mi Pad Demo Search With Chat View Controller - Search With Live Chat-->
+        <!--Search With Live Chat-->
         <scene sceneID="cQx-7X-Rnc">
             <objects>
                 <viewController id="4W6-d1-QbY" customClass="HMiPadDemoSearchWithChatViewController" sceneMemberID="viewController">
@@ -633,7 +624,6 @@
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="nj3-cl-qCm">
                                 <rect key="frame" x="20" y="20" width="663" height="64"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="Pdz-rp-fGG"/>
@@ -644,7 +634,6 @@
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Source:  HMiPhoneDemoSearchWithChatViewController.m" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="PqT-wo-2Bo">
                                 <rect key="frame" x="20" y="92" width="663" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="tTY-aC-rq7"/>
@@ -652,9 +641,8 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6zd-fD-8pE">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6zd-fD-8pE">
                                 <rect key="frame" x="211" y="144" width="280" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="280" id="WPk-Vx-oQL"/>
                                 </constraints>
@@ -678,7 +666,6 @@
                             <constraint firstItem="PqT-wo-2Bo" firstAttribute="top" secondItem="nj3-cl-qCm" secondAttribute="bottom" constant="8" symbolic="YES" id="qna-vq-vFT"/>
                             <constraint firstItem="1N6-7W-fsf" firstAttribute="top" secondItem="6zd-fD-8pE" secondAttribute="bottom" constant="487" id="rPj-1G-ESQ"/>
                         </constraints>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <toolbarItems/>
@@ -699,7 +686,7 @@
             </objects>
             <point key="canvasLocation" x="5405" y="-3485"/>
         </scene>
-        <!--Mi Pad Demo Search With Chat If Operator Available View Controller - Search With Live Chat If Operator Available-->
+        <!--Search With Live Chat If Operator Available-->
         <scene sceneID="gba-DG-SZn">
             <objects>
                 <viewController id="0Ly-mK-xXx" customClass="HMiPadDemoSearchWithChatIfOperatorAvailableViewController" sceneMemberID="viewController">
@@ -713,7 +700,6 @@
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="daQ-HB-3MH">
                                 <rect key="frame" x="20" y="20" width="663" height="63"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="63" id="YsR-uE-y1A"/>
@@ -724,7 +710,6 @@
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Source:  HMiPhoneDemoSearchWithChatIfOperatorAvailableViewController.m" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jTw-OQ-8jN">
                                 <rect key="frame" x="20" y="91" width="663" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="Fui-T2-RbO"/>
@@ -732,9 +717,8 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NFf-0v-G6F">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NFf-0v-G6F">
                                 <rect key="frame" x="211" y="143" width="280" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="280" id="GXu-u3-5xy"/>
                                 </constraints>
@@ -758,7 +742,6 @@
                             <constraint firstItem="NFf-0v-G6F" firstAttribute="centerX" secondItem="jTw-OQ-8jN" secondAttribute="centerX" id="pzr-wa-pc4"/>
                             <constraint firstItem="jTw-OQ-8jN" firstAttribute="leading" secondItem="daQ-HB-3MH" secondAttribute="leading" id="vH0-xH-FPV"/>
                         </constraints>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <toolbarItems/>
@@ -779,7 +762,7 @@
             </objects>
             <point key="canvasLocation" x="4597" y="-3485"/>
         </scene>
-        <!--Mi Pad Demo Default Chat View Controller - Default Chat-->
+        <!--Default Chat-->
         <scene sceneID="LFg-8A-hvP">
             <objects>
                 <viewController id="0Kv-WE-LgL" customClass="HMiPadDemoDefaultChatViewController" sceneMemberID="viewController">
@@ -793,7 +776,6 @@
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="This class demonstrates launching a standard live chat view as either a content view controller or a popover view controller." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hcM-ej-5Wx">
                                 <rect key="frame" x="20" y="20" width="663" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="49" id="oIK-JS-UjI"/>
@@ -803,7 +785,6 @@
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Source: HMiPadDemoDefaultChatViewController.m" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hel-rv-hKR">
                                 <rect key="frame" x="20" y="77" width="663" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="41" id="RG2-45-6cy"/>
@@ -813,7 +794,6 @@
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWQ-l5-lnc">
                                 <rect key="frame" x="191" y="126" width="321" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="321" id="Msm-63-XKW"/>
                                 </constraints>
@@ -837,7 +817,6 @@
                             <constraint firstItem="hcM-ej-5Wx" firstAttribute="leading" secondItem="Dbz-hA-ko6" secondAttribute="leading" constant="20" symbolic="YES" id="hVt-Tu-W92"/>
                             <constraint firstItem="hel-rv-hKR" firstAttribute="leading" secondItem="hcM-ej-5Wx" secondAttribute="leading" id="med-m5-yMn"/>
                         </constraints>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <navigationItem key="navigationItem" title="Default Chat" id="2G3-ng-1C4">
@@ -855,7 +834,7 @@
             </objects>
             <point key="canvasLocation" x="4037" y="83"/>
         </scene>
-        <!--Mi Pad Demo Article Only View Controller - Article Only-->
+        <!--Article Only-->
         <scene sceneID="0qD-J9-PJb">
             <objects>
                 <viewController id="zaf-cI-R0D" customClass="HMiPadDemoArticleOnlyViewController" sceneMemberID="viewController">
@@ -869,7 +848,6 @@
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="PkM-7J-mna">
                                 <rect key="frame" x="20" y="20" width="663" height="50"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="dVJ-Ry-ddi"/>
@@ -880,7 +858,6 @@
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Source: HMiPadDemoArticleOnlyViewController.m" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5C9-Ih-CYq">
                                 <rect key="frame" x="20" y="78" width="663" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="vRB-i0-z0B"/>
@@ -888,9 +865,8 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ivd-jB-uOi">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ivd-jB-uOi">
                                 <rect key="frame" x="178" y="116" width="346" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="346" id="z0e-Xv-7bh"/>
                                 </constraints>
@@ -914,7 +890,6 @@
                             <constraint firstItem="Ivd-jB-uOi" firstAttribute="centerX" secondItem="5C9-Ih-CYq" secondAttribute="centerX" id="f1m-8r-sS4"/>
                             <constraint firstItem="PkM-7J-mna" firstAttribute="leading" secondItem="xyI-WL-3Oc" secondAttribute="leading" constant="20" symbolic="YES" id="y4h-TM-Eyr"/>
                         </constraints>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <navigationItem key="navigationItem" title="Article Only" id="fHJ-wQ-JeV">
